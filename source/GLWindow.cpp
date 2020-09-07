@@ -141,7 +141,6 @@ int main(int argc, char* argv[])
 			glewExperimental = GL_TRUE; // needed in core profile
 			if (glewInit() == GLEW_OK)
 			{
-                
 				// Lower the number of buffer swaps for each frame
 				// in order to optimize efficiency
 				glfwSwapInterval(1);
